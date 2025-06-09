@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Javascript While Loop</h2>
+    <p id="Number"></p>
+    <script>
+        var i = 0;
+        var text = "";
+
+        while (i < 10) {
+            text += "The number is: " + i;
+            i++;
+        }
+
+        document.getElementById("Number").innerHTML = text;
+    </script>
+</body>
+</html>
